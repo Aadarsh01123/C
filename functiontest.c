@@ -3,9 +3,13 @@
 // Create a function
 void myFunction()
 {
-    int a = 5;
-    int b = 5;
-    int sum = a + b;
+    int a, b, sum;
+    printf("enter the value of A is :");
+    scanf("%d", &a);
+    printf("enter the value of b is :");
+    scanf("%d", &b);
+
+    sum = a + b;
 
     printf("the sum is %d", sum);
 }
